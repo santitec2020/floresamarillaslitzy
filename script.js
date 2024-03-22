@@ -73,12 +73,7 @@ function createFlower() {
         }, disappearanceTime);
     }
 }
-document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio("https://github.com/santitec2020/floresamarillaslitzy/blob/4df7106db642236ce6557e93f7b608b0c52d4793/flores_amarillas.mp3");
-    audio.loop = true;
-    audio.play();
-    $(document).ready(function() {
-        $("#audio").trigger("play");
+
       });
 });
 // Cambia el intervalo de tiempo para controlar la aparición de las flores cada 3 segundos
