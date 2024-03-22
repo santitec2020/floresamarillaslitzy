@@ -74,7 +74,7 @@ function createFlower() {
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio("flores_amarillas.mp3");
+    var audio = new Audio("https://github.com/santitec2020/floresamarillaslitzy/blob/gh-pages/Flores%20Amarillas%20-%20Floricienta%20-%20High%20Quality.m4a");
     audio.loop = true;
     audio.play();
     $(document).ready(function() {
